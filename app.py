@@ -10,10 +10,10 @@ model = YOLO('yolov5su.pt')
 
 CAMERAS = {
     "Cam1": 0,
-    "Cam2": "sample3.mp4",
-    "Cam3": "sample2.mp4",
-    "Cam4": "sample1.mp4",
-    "EntryCam": "sample3.mp4"
+    "Cam2": "videos/sample4.mp4",
+    "Cam3": "videos/sample2.mp4",
+    "Cam4": "videos/sample3.mp4",
+    "EntryCam": "videos/sample2.mp4"
 }
 
 thresholds = {
